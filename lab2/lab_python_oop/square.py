@@ -8,4 +8,4 @@ class Square(Rectangle):
     def get_type(cls):
         return cls.figure_type
     def __repr__(self):
-       return 'Тип: {}, Сторона: {}, Цвет: {}, Площадь: {}'.format(Square.get_type(), self.width, self.color.color, self.get_area())
+       return 'Тип: {}, Сторона: {}, Цвет: {}, Площадь: {}'.format(Square.get_type(), self.width, self.color.color, super().get_area())
