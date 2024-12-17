@@ -1,0 +1,1 @@
+/Users/hunter/sem3/lab2_rust/process_data/logger_macros/target/debug/logger_macros: /Users/hunter/sem3/lab2_rust/process_data/logger_macros/src/lib.rs /Users/hunter/sem3/lab2_rust/process_data/logger_macros/src/main.rs
