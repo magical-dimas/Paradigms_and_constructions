@@ -30,7 +30,7 @@ fn f2(profs: Vec<String>) -> Vec<String>{
     profs.into_iter().filter(|v| v.starts_with("программист")).collect::<Vec<_>>()
 }
 
-
+#[log_duration]
 fn f3(profs: Vec<String>) -> Vec<String>{
     profs.into_iter().map(|v| v+" с опытом Python").collect::<Vec<_>>()
 }

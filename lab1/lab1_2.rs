@@ -27,9 +27,6 @@ fn ans(a: f64, b: f64, dis: f64) -> LinkedList<f64> {
             l.push_back(((-b+dis.sqrt())/(2.0*a)).sqrt());
         }
     }
-    if ((-b-dis.sqrt())/(2.0*a)) > 0.0{
-        println!("fuck!");
-    }
     return l;
 }
 
